@@ -4,7 +4,7 @@
         "port": 3000,
         "store": {
             "adapter": "mongodb",
-            "url": "mongodb://127.0.0.1:27017/TEST",
+            "url": "mongodb+srv://admin:<password>@cluster0.vohcn.mongodb.net/<YOUR DATABASE NAME>",
             "collection": "AddonSettings"
         }
     }

@@ -35,11 +35,11 @@ app.use(session({
 let MongoClient = require('mongodb').MongoClient;
 getdb();
 
-global.databaseName = "TEST";
+global.databaseName = "YOUR-DATABASE-NAME";
 global.JiraAccountInfoStore = "jira";
 
 async function getdb() {
-    global.connection = await MongoClient.connect("mongodb://localhost:27017/", {useNewUrlParser: true})
+    global.connection = await MongoClient.connect("< MONGO CONNECTION URL >/admin", {useNewUrlParser: true})
     global.database = await global.connection.db(global.databaseName);
 
 
