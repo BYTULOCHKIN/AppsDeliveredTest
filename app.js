@@ -3,6 +3,7 @@
 
 // [Express](http://expressjs.com/) is your friend -- it's the underlying
 // web framework that `atlassian-connect-express` uses
+// https://expressjs.com/ru/
 var express = require('express');
 var session = require("express-session");
 var bodyParser = require('body-parser');
